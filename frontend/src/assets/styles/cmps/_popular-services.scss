@@ -111,3 +111,22 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .popular-services {
+    .slick-track{
+     
+    }
+    .img-card {
+      position: relative;
+      height: rem(400px);
+      width: rem(500px);
+      img{
+        object-fit: cover;
+        height: 345px;
+        width: 100%;
+      }
+      
+    }
+  }
+}

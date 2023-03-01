@@ -7,7 +7,7 @@ export function SellingAd() {
             <h2>A whole world of freelance talent at your fingertips</h2>
             <ul className="clean-list flex">
               <li>
-                <div className="flex align-center">
+                <div className="img-headline-container flex align-center">
                   <svg
                     width="16"
                     height="16"

@@ -93,6 +93,7 @@ h2 {
 @media (max-width: 900px) {
   .selling-ad {
     margin: 0 auto 48px;
+
     .ad-grid {
       padding: 48px 15px;
       display: flex;
@@ -102,10 +103,11 @@ h2 {
       // display: grid;
       // grid-auto-flow: column;
       // grid-template-columns: 1fr 1fr;
-      
+
       h2 {
         margin: 0;
       }
+
       .ad-text {
         padding: 0px 8px 48px;
         margin-bottom: 0;
@@ -114,15 +116,8 @@ h2 {
 
     img {
       margin-top: 0;
-      margin:0;
-      
-     
+      margin: 0;
     }
-    .ad-img{
-      // width:100%;
-      
-    }
-    
   }
 
   .trustedBy {
@@ -142,5 +137,29 @@ h2 {
       display: none;
     }
 
+  }
+}
+
+@media (max-width: 600px) {
+
+  .selling-ad {
+    .ad-grid {
+      h2 {
+        font-size: 1.75rem;
+      }
+
+      .ad-text {
+        h4 {
+          font-size: 1rem;
+        }
+      }
+
+      .ad-img {
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
   }
 }
