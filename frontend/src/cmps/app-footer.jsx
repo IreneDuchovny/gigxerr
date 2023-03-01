@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import { showErrorMsg, showSuccessMsg } from "../services/event-bus.service";
 
 import { removeFromCart, checkout } from "../store/gig.actions";
@@ -29,9 +30,10 @@ export function AppFooter() {
       <hr />
       <section className="footer-container align-center flex">
         <div className="title">
+          <Link to="/">
           <span className="logo-footer">
             <BlackLogo />
-          </span>
+          </span></Link>
           <p className="copy-rights">© Gigxerr International Ltd. 2023</p>
         </div>
         <div className="social-links">

@@ -68,3 +68,20 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .market-place {
+    margin-top: 0;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .market-categories {
+    li {
+      padding: 0 10px 32px;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+    }
+  }
+}
