@@ -44,16 +44,11 @@ export function RootCmp() {
           />
         ))}
         <Route path="user/:id" element={<UserDetails />} />
-        <Route
-          path="gig/:id"
-          element={<GigDetails/>}
-        />
+        <Route path="gig/:id"element={<GigDetails/>}/>
         <Route path="payments/:id" element={<GigPayment />} />
-
         <Route path="/gig/edit/:gigId" element={<GigEdit />} />
         <Route path="/gig/edit" element={<GigEdit />} />
         <Route path="/user/loginsignup" element={<LoginSignup />} />
-       
       </Routes>
       <UserDropDownModal openUserDropDown={openUserDropDown} setOpenUserDropDown={setOpenUserDropDown} />
       <AppFooter />
