@@ -56,27 +56,6 @@
     }
   }
 
-  .hero-info {
-    align-self: center;
-    position: absolute;
-    font-family: Macan-Bold;
-    align-self: center;
-    color: white;
-    // line-height: 2;
-
-    h1 {
-      font-size: em(40px);
-      max-width: 650px;
-      line-height: 1.2;
-      margin: 0;
-      font-family: Macan-Bold;
-
-      span {
-        font-style: italic;
-        font-family: "Times New Roman", Times, serif;
-      }
-    }
-  }
 
   .search-container {
     width: rem(650px);
@@ -236,11 +215,51 @@
     }
 
     .hero-name {
-     display: none;
+      display: none;
     }
   }
 
   .popular-tags {
     display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-info {
+    font-family: Macan-Bold;
+    padding: 24px 24px 48px;
+
+    span {
+      font-style: italic;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    h1 {
+      font-size: em(32px);
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .hero-info {
+    align-self: center;
+    position: absolute;
+    font-family: Macan-Bold;
+    align-self: center;
+    color: white;
+    // line-height: 2;
+
+    h1 {
+      font-size: em(40px);
+      max-width: 650px;
+      line-height: 1.2;
+      margin: 0;
+      font-family: Macan-Bold;
+
+      span {
+        font-style: italic;
+        font-family: "Times New Roman", Times, serif;
+      }
+    }
   }
 }
