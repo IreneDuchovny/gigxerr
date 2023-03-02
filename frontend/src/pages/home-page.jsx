@@ -15,7 +15,7 @@ export function HomePage() {
     <section className="home-page full">
       <AppHero />
       <section className="trustedBy  main-container">
-        <ul className="flex clean-list  ">
+        <ul className=" trusted-list flex clean-list  ">
           <h3>Trusted by:</h3>
           <li className="trustedByImg">
             <img src={require("../assets/img/trustedBy/facebook.png")} alt="" />

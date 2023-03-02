@@ -81,7 +81,7 @@ export function AppHero() {
       <div
         className={`img-container${imgToDisplay}
 } full main-container flex`}
-      >
+>
         <div className="hero-info ">
           <h1>
             Find the perfect <span>freelance</span> services for your business

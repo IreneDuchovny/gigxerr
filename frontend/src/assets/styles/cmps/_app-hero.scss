@@ -1,4 +1,6 @@
 .hero-container {
+  // display: flex;
+  // flex: 1;
   min-height: 680px;
   position: relative;
 
@@ -225,7 +227,12 @@
 }
 
 @media (max-width: 600px) {
+  // .hero-container{
+  //   display: flex;
+  //   flex:1;
+  // }
   .hero-info {
+   
     font-family: Macan-Bold;
     padding: 24px 24px 48px;
 
