@@ -111,6 +111,6 @@ export function removeFromCart(gigId) {
 // }
 
 export function setFilter(filterBy) {
-  console.log('filterBy', filterBy);
+  // console.log('filterBy', filterBy);
   store.dispatch({ type: SET_FILTER, filterBy });
 }

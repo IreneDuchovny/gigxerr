@@ -138,7 +138,7 @@ export function AppHeader({
 
   return (
     <header className={`app-header main-container full sticky ${headerStyle}`}>
-      <div class="main-screen" onClick={toggleMenu}></div>
+      <div className="main-screen" onClick={toggleMenu}></div>
       <div className="flex align-center top-nav">
         <section className="top-nav-logo-search flex align-center">
           <Link className="header-logo" to={`/`}>
@@ -173,7 +173,7 @@ export function AppHeader({
             
           </form>
         </section>
-        <button class="menu-toggle-btn" onClick={toggleMenu}>
+        <button className="menu-toggle-btn" onClick={toggleMenu}>
           ☰
         </button>
         <section className="top-nav-actions flex">
@@ -254,9 +254,9 @@ export function AppHeader({
                   {/* {user.imgUrl && (
                     <div className="nav-user-img-container">
                       <img src={user.imgUrl} />
-                      <div class="user-modal flex">
-                        <div class="modal-tip"></div><a href={`user/${user._id}`} class="light">Profile</a>
-                        <a href="{`user/${user._id}`}" class="">Dashboard</a><a onClick={onLogout}>Logout</a></div>
+                      <div className="user-modal flex">
+                        <div className="modal-tip"></div><a href={`user/${user._id}`} className="light">Profile</a>
+                        <a href="{`user/${user._id}`}" className="">Dashboard</a><a onClick={onLogout}>Logout</a></div>
                     </div>
                   )} */}
                   <div

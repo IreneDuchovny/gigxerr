@@ -25,10 +25,10 @@ export function UserDropDownModal({openUserDropDown,setOpenUserDropDown}) {
     return (
         <div>
         {( user && openUserDropDown) &&
-        <div class="user-modal flex">
-        <div class="modal-tip"></div>
-        <a href={`/user/${user._id}`} class="light">Profile</a>
-        <a href={`/user/${user._id}`} class="">Dashboard</a><a onClick={() => {onLogout()}}>Logout</a>
+        <div className="user-modal flex">
+        <div className="modal-tip"></div>
+        <a href={`/user/${user._id}`} className="light">Profile</a>
+        <a href={`/user/${user._id}`} className="">Dashboard</a><a onClick={() => {onLogout()}}>Logout</a>
         </div>
         }
         </div>

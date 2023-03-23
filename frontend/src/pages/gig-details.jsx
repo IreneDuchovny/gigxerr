@@ -177,7 +177,7 @@ export function GigDetails() {
               {/* check if description-wrapper is needed */}
               <div className="description-content">
                 {gig.description}
-                {/* check for only SM screen buttons class="collapse-button" */}
+                {/* check for only SM screen buttons className="collapse-button" */}
               </div>
               {/* check if metadata is needed here */}
             </div>

@@ -16,7 +16,7 @@ export function orderReducer(state = initialState, action) {
     var newState = state
     var userOrders
     var sellerOrders
-    console.log('action', action);
+    // console.log('action', action);
     switch (action.type) {
         case SET_USER_ORDERS:
             newState = { ...state, userOrders: action.orders }
