@@ -6,37 +6,37 @@
 
   @media (min-width: 900px) {
     .img-container1 {
-      background-image: url("../../img/hero/hero1.webp");
+      background-image: url("../../img/hero/hero6.webp");
       width: 100%;
       transition: 0.7s;
     }
 
     .img-container2 {
-      background-image: url("../../img/hero/hero2.webp");
+      background-image: url("../../img/hero/hero1.webp");
       width: 100%;
       transition: 0.7s;
     }
 
     .img-container3 {
-      background-image: url("../../img/hero/hero3.webp");
+      background-image: url("../../img/hero/hero2.webp");
       width: 100%;
       transition: 0.7s;
     }
 
     .img-container4 {
-      background-image: url("../../img/hero/hero4.webp");
+      background-image: url("../../img/hero/hero3.webp");
       width: 100%;
       transition: 0.7s;
     }
 
     .img-container5 {
-      background-image: url("../../img/hero/hero5.webp");
+      background-image: url("../../img/hero/hero4.webp");
       width: 100%;
       transition: 0.7s;
     }
 
     .img-container6 {
-      background-image: url("../../img/hero/hero6.webp");
+      background-image: url("../../img/hero/hero5.webp");
       width: 100%;
       transition: 0.7s;
     }
@@ -227,12 +227,13 @@
 }
 
 @media (max-width: 600px) {
+
   // .hero-container{
   //   display: flex;
   //   flex:1;
   // }
   .hero-info {
-   
+
     font-family: Macan-Bold;
     padding: 24px 24px 48px;
 

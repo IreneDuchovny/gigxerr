@@ -75,8 +75,8 @@ export function AppHeader({
   }, []);
 
   function switchHeaderStyle(pageYOffset) {
-    console.log("location.pathname", location.pathname);
-    console.log("pageYOffset", pageYOffset);
+    // console.log("location.pathname", location.pathname);
+    // console.log("pageYOffset", pageYOffset);
     if (location.pathname !== "/") {
       setHeaderStyle("sticky ");
       setLogo(<BlackLogo />);

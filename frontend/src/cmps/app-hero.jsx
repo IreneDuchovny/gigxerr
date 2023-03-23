@@ -19,7 +19,7 @@ export function AppHero() {
     heroImgSwitch();
   }, []);
 
-  useEffect(() => {}, [filterByToEdit]);
+  useEffect(() => { }, [filterByToEdit]);
 
   function handleChange({ target }) {
     let { value, name: field, type } = target;
@@ -49,29 +49,30 @@ export function AppHero() {
 
         return prevImg;
       });
-    }, 7000);
+    }, 2000);
   }
 
   function heroTextSwitch(heroImg) {
     switch (heroImg) {
       case 1:
-        setHeroTextToDisplay(" Moon, Marketing Expert");
+        setHeroTextToDisplay("Valentina, AI Artist");
         break;
       case 2:
-        setHeroTextToDisplay("Rikita, Shoemaker and Desighner");
+        setHeroTextToDisplay(" Moon, Marketing Expert");
         break;
       case 3:
-        setHeroTextToDisplay("Zack, Bar Owner");
+        setHeroTextToDisplay("Rikita, Shoemaker and Desighner");
         break;
       case 4:
-        setHeroTextToDisplay("Gabrielle, Video Editor");
+        setHeroTextToDisplay("Zack, Bar Owner");
         break;
       case 5:
+        setHeroTextToDisplay("Gabrielle, Video Editor");
+        break;
+      case 6:
         setHeroTextToDisplay("Andrea, Fasion Designer");
         break;
-        case 6:
-          setHeroTextToDisplay("Valentina, AI Artist");
-          break;
+
       default:
     }
   }
@@ -81,7 +82,7 @@ export function AppHero() {
       <div
         className={`img-container${imgToDisplay}
 } full main-container flex`}
->
+      >
         <div className="hero-info ">
           <h1>
             Find the perfect <span>freelance</span> services for your business
@@ -93,20 +94,20 @@ export function AppHero() {
           >
             <label htmlFor="gigTitle"></label>
             <div className="search-hero-section flex">
-            <div className="search-icon-box flex">
-              <span className="material-symbols-outlined search-icon">
-                search
-              </span>
-            </div>
-            <input
-              className="search-box"
-              type="text"
-              id="gigTitle"
-              name="title"
-              value={filterByToEdit.title}
-              onChange={handleChange}
-              placeholder="Try ''building mobile app''"
-            />
+              <div className="search-icon-box flex">
+                <span className="material-symbols-outlined search-icon">
+                  search
+                </span>
+              </div>
+              <input
+                className="search-box"
+                type="text"
+                id="gigTitle"
+                name="title"
+                value={filterByToEdit.title}
+                onChange={handleChange}
+                placeholder="Try ''building mobile app''"
+              />
             </div>
             <button
               className="search-btn"
