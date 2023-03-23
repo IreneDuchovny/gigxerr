@@ -297,7 +297,7 @@
   color: $clr1;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1250px) {
   .app-header {
     
     .main-nav {
@@ -342,6 +342,7 @@
   body.menu-open .top-nav .top-nav-actions {
     transform: translateX(0);
   }
+ 
   .menu-toggle-btn {
     display: inline-block;
     font-size: 20px;
@@ -355,8 +356,14 @@
   }
   .user-info {
     flex-direction: column;
-    gap: 24px;
-    padding-top: 24px;
+    gap: 10px;
+    padding-top: 60px;
+    .join-btn{
+      margin: 0;
+    }
+    .orders-link span{
+      color: $clr2;
+    }
   }
   .nav-hover-clr {
     margin: 0;
