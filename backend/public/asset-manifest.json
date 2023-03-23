@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.885d4c5e.css",
+    "main.css": "/static/css/main.fccbdeaa.css",
     "main.js": "/static/js/main.b71a6660.js",
     "static/media/macan-light.ttf": "/static/media/macan-light.75c0fb9306a207ee180f.ttf",
     "static/media/macan-bold.ttf": "/static/media/macan-bold.29c28b1d0173728738dc.ttf",
@@ -31,11 +31,11 @@
     "static/media/success.svg": "/static/media/success.90cdcda91811446c744e6d7f51e9d1cc.svg",
     "static/media/heart.svg": "/static/media/heart.b56d552a7f0bc500f5f351e6037a5deb.svg",
     "static/media/heart-liked.svg": "/static/media/heart-liked.ab02d2838e3d334eed171781b82d0115.svg",
-    "main.885d4c5e.css.map": "/static/css/main.885d4c5e.css.map",
+    "main.fccbdeaa.css.map": "/static/css/main.fccbdeaa.css.map",
     "main.b71a6660.js.map": "/static/js/main.b71a6660.js.map"
   },
   "entrypoints": [
-    "static/css/main.885d4c5e.css",
+    "static/css/main.fccbdeaa.css",
     "static/js/main.b71a6660.js"
   ]
 }
